@@ -42,15 +42,29 @@ MLflow Logging
 
 Infrastructure: Docker Container → AWS EC2
 ```
-
 ---
-
+ 
+## 📂 Datasets
+ 
+| Dataset | Size | Source |
+|---------|------|--------|
+| IMDB Movie Reviews | ~50,000 reviews | HuggingFace `datasets` |
+ 
+Both datasets are binary sentiment classification (positive/negative) and loaded directly via `datasets.load_dataset()`.
+ 
+---
+ 
 ## 📊 Results
-
-> **In progress**
-
+ 
+> **In progress** — expected benchmarks for fine-tuned DistilBERT:
+ 
+| Metric | Expected Score |
+|--------|---------------|
+| Accuracy | ~92–93% |
+| F1 Score | ~0.91–0.93 |
+ 
 ---
-
+ 
 ## ▶️ How to Run
-
+ 
 > **Coming soon**
